@@ -5,16 +5,15 @@ package cn.zhouyafeng.itchat4j.utils;
  */
 public class SleepUtils {
 
-    /**
-     * 毫秒为单位
-     * @param time
-     */
-    public static void sleep( long time ){
-        try {
-            Thread.sleep( time );
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+  /**
+   * 毫秒为单位
+   */
+  public static void sleep(long time) {
+    try {
+      Thread.sleep(time);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
     }
+  }
 
 }
